@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zuccini</title>
+	<style>
+		body{background-color:#f3f6f4;}
+	</style>
+</head>
+<body>   
+<center><big><big><big><font face="Verdana Pro Black">
+<h1>Zucchini</h1></big></big></big></font><br>
+<i>Cucurbita pepo subsp. pepo convar. Giromontiina</i>
+
+<big><big>
+<p><big><big><font face="Gadugi">
+Die<a href="https://de.wikipedia.org/wiki/Zucchini"><font color=green>  Zuchini</font></a> benötigt einen sonnigen Standort<font color= orange> ☀ </font> und sollte neben einer<br>
+guten Stickstoffversorgung,zum Beispiel durch<br>
+frischen Kompos 🌳 oder Hornspähne, auch<br>
+regelmäßig gegossen 💧 werden.
+</body></big><font>
+</big></p>
+
+<br>
+
+<table>
+
+	<table border="0"; style="width:46%">
+		<tr>
+			<th> <b>gute Nachbarn</th>
+			<th> schlechte Nachbarn</b></th>
+		</tr>
+		<tr>
+			<td>
+				{% for i in good_plants %}
+					{{i}}
+					<br>
+				{% endfor %}
+			</td>
+			<td>
+				{% for i in bad_plants %}
+					{{i}}
+					<br>
+				{% endfor %}
+			</td>
+		</tr>
+	</table>
+</table>
+
+<a href="{{url_for('index')}}" id="link">NEW PHOTO</a>
+</big></big>
+
+<style>
+#link {
+width: 400px;
+background-color: black;
+color: white;
+font-size: 16px;
+border-radius: 30px;
+border: none;
+padding: 15px 20px;
+text-align: center;
+}
+
+</style>
+</big></big>
+</html>
+</center>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="static/manifest.json">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/png" href="/static/plant.ico"/>
+    
+
+</head>
+
+<body>
+
+    <main id="camera">
+            <canvas id="camera--sensor"></canvas>
+            <video id="camera--view" autoplay playsinline></video>
+            <img src="//:0" alt="" id="camera--output">
+                <button id="camera--trigger">Take a picture</button>
+    </main>
+
+    <script src="static/camera_app.js"></script> 
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("static/service-worker.js");
+        }
+    </script>
+
+</body>
+
+<html>

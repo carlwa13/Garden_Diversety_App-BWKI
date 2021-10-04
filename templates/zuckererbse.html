@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zuckererbse</title>
+	<style>
+		body{background-color:#f3f6f4;}
+	</style>
+</head>
+<body>   
+<center><big><big><big><font face="Verdana Pro Black">
+<h1>Zuckererbse</h1></big></big></big></font><br>
+<i>Pisum sativum subsp. sativum convar. axiphium</i>
+<big><big>
+<p><big><big><font face="Gadugi">
+Die <a href="https://de.wikipedia.org/wiki/Zuckererbse"><font color=green> Zuckererbse</font></a> benötigen einen sonnenreichen<font color=orange> ☀ </font>Standort und sollten in nährstoffarme<br>
+Erde 🌱 gepflanzt werden, zum Beispiel am Ende einer Pflanzphase  von Pflanzen<br>
+mit hohem Närstoffbedarf, und  bei Trockenheit regelmäßig gegossen werden.<br>
+Es sollte eine Rankhilfe benutzt werden um die Pflanze zu stabilisieren.<br>
+Man sollt die Zuckererbse ende Mai einpflanzen.
+  
+</body></big><font>
+</big></p>
+
+<br>
+
+<table>
+
+	<table border="0"; style="width:46%">
+		<tr>
+			<th> <b>gute Nachbarn</th>
+			<th> schlechte Nachbarn</b></th>
+		</tr>
+		<tr>
+			<td>
+				{% for i in good_plants %}
+					{{i}}
+					<br>
+				{% endfor %}
+			</td>
+			<td>
+				{% for i in bad_plants %}
+					{{i}}
+					<br>
+				{% endfor %}
+			</td>
+		</tr>
+	</table>
+</table>
+
+<a href="{{url_for('index')}}" id="link">NEW PHOTO</a>
+</big></big>
+
+<style>
+#link {
+      width: 400px;
+      background-color: black;
+      color: white;
+      font-size: 16px;
+      border-radius: 30px;
+      border: none;
+      padding: 15px 20px;
+      text-align: center;
+}
+
+</style>
+</html>
+</center>

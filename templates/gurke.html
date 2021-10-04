@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<title>Gurke</title>
+	<style>
+		body{background-color:#f3f6f4;}
+	</style>
+</head>
+
+<body>   
+<center><big><big><big><font face="Verdana Pro Black">
+<h1>Gurke</h1></big></big></big></font><br>
+<i>Cucumis sativus</i>
+
+<big><big>
+<p><big><big><font face="Gadugi">
+Die <a href="https://de.wikipedia.org/wiki/Gurke"><font color= "green">Gurke</font></a> benötigt einen sonnigen <font color="orange"> ☀ </font> bis halbschattigen 🌓 Standort<br>
+und sollten neben einer guten Stickstoffversorgung, zum Beispiel durch <br>
+frischen Kompost oder Hornspähne,<br>
+auch regelmäßig gegossen 💧 werden.<br>
+Die Gurke kann man mitte Mai einpflanzen.<br>
+
+<br>
+<br>
+
+<style>
+table, th, td{border:0px solidblack}
+</style>
+</body></big><font>
+</big></p>
+<body>
+	<table>
+	
+		<table border="0"; style="width:46%">
+			<tr>
+				<th> <b>gute Nachbarn</th>
+				<th> schlechte Nachbarn</b></th>
+			</tr>
+			<tr>
+				<td> 
+					{% for i in good_plants %}
+						{{i}}
+						<br>
+					{% endfor %}
+				</td>		  
+				<td> 
+					{% for i in bad_plants %}
+						{{i}}
+						<br>
+					{% endfor %}
+				</td>
+			</tr>
+		</table>
+	</table>
+</body>
+<br>
+
+<br>
+<a href="{{url_for('index')}}" id="link">NEW PHOTO</a>
+</big></big>
+
+<style>
+#link {
+width: 400px;
+background-color: black;
+color: white;
+font-size: 16px;
+border-radius: 30px;
+border: none;
+padding: 15px 20px;
+text-align: center;
+}
+
+</style>
+</big></big>
+</html>
+</center>

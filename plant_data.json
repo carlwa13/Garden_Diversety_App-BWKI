@@ -1,0 +1,13 @@
+{
+	"data":{
+		"zucchini": ["lauch", "zuckererbse", "-gurke"],
+		"gurke": ["zuckererbse", "kohlrabi","lauch","-zucchini","-tomate","-speisekürbis", "-kartoffel","-paprika"],
+		"speisekürbis": ["-gurke", "-kohlrabi", "-kartoffel"],
+		"kartoffel": ["kohlrabi","-Paprika","-tomate","-zuckererbse","-gurke","-speisekürbis"],
+		"kohlrabi": ["zuckererbse","kohlrabi", "kartoffel","lauch", "tomate", "paprika","-speisekürbis"],
+		"paprika": ["kohlrabi","tomate", "-zuckererbse", "-gurke","-kartoffel"],
+		"lauch": ["gurke", "kohlrabi","tomate","zucchini","-zuckererbse"],
+		"zuckererbse": ["gurke","kohlrabi","zuchini","-kartoffeln","-tomate","lauch","-paprika"],
+		"tomate": ["-zuckererbse", "lauch","paprika", "kohlrabi", "-kartoffel", "-gurke"]
+	}
+}

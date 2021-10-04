@@ -1,0 +1,15 @@
+{
+    "short_name": "bw-ki-prototype",
+    "name": "bw-ki-prototype",
+    "icons": [
+    {
+    "src":"/assets/plant.jpeg",
+    "sizes": "192x192",
+    "type": "image/png"
+    }
+    ],
+    "start_url": "",
+    "background_color": "#e05a47",
+    "theme_color": "#e05a47",
+    "display": "standalone"
+  }
